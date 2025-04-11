@@ -17,7 +17,7 @@ export default function Cart() {
 
   const handleClick = () => {
     Swal.fire({
-      title: "Good job!",
+      title: "Thank you!",
       text: "Your order has been placed!",
       icon: "success",
     }).then(() => {
@@ -26,16 +26,16 @@ export default function Cart() {
   };
 
   return (
-    <section className="container mx-auto px-5 flex">
+    <section className="container mx-auto px-5 flex flex-col lg:flex-row gap-4">
       <div
         className="grid lg:grid-cols-3 grid-col-1
-       gap-10 w-2/3"
+       gap-10 lg:w-2/3 w-full"
       >
         {cart.map((product) => (
           <Product product={product} isCart />
         ))}
       </div>
-      <div className="w-1/3 bg-neutral-100 flex flex-col  h-100 px-7 gap-2 ml-10">
+      <div className="lg:w-1/3 w-full bg-neutral-100 flex flex-col  h-100 px-7 gap-2 lg:ml-10 ">
         <h2 className="font-bold text-xl text-center p-3">summary</h2>
         <h5 className="">
           Subtotal <span className="ml-50">{productTotalAmount}</span>
