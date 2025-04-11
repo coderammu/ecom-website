@@ -20,7 +20,7 @@ const products = [
     id: "L123",
     name: "Bench",
     image: bench2,
-    price: 1250,
+    price: 5250,
     rating: "5",
     description: "fffff",
   },
@@ -29,6 +29,7 @@ const products = [
     name: "Bookcase",
     image: bookcase,
     rating: "5",
+    price: 54250,
     description: "fffff",
   },
   {
@@ -36,6 +37,7 @@ const products = [
     name: "Cabinet",
     image: cabinet,
     rating: "5",
+    price: 16250,
     description: "fffff",
   },
 
@@ -44,6 +46,7 @@ const products = [
     name: "Cabinets",
     image: cabinet2,
     rating: "5",
+    price: 71250,
     description: "fffff",
   },
   {
@@ -51,6 +54,7 @@ const products = [
     name: "Cabinet",
     image: cabinet3,
     rating: "5",
+    price: 41250,
     description: "fffff",
   },
   {
@@ -58,6 +62,7 @@ const products = [
     name: "Cabinet",
     image: cabinet4,
     rating: "5",
+    price: 7250,
     description: "fffff",
   },
   {
@@ -65,6 +70,7 @@ const products = [
     name: "Chair",
     image: chair2,
     rating: "5",
+    price: 6250,
     description: "fffff",
   },
   {
@@ -72,6 +78,7 @@ const products = [
     name: "diwan",
     image: diwan,
     rating: "5",
+    price: 51250,
     description: "fffff",
   },
   {
@@ -79,6 +86,7 @@ const products = [
     name: "hero",
     image: hero,
     rating: "5",
+    price: 21250,
     description: "fffff",
   },
   {
@@ -86,6 +94,7 @@ const products = [
     name: "mirror",
     image: mirror,
     rating: "5",
+    price: 41250,
     description: "fffff",
   },
   {
@@ -93,6 +102,7 @@ const products = [
     name: "ottoman",
     image: ottoman,
     rating: "5",
+    price: 31250,
     description: "fffff",
   },
   {
@@ -100,6 +110,7 @@ const products = [
     name: "sofa",
     image: sofa,
     rating: "5",
+    price: 43250,
     description: "fffff",
   },
   {
@@ -107,6 +118,7 @@ const products = [
     name: "sofa",
     image: sofa1,
     rating: "5",
+    price: 54250,
     description: "fffff",
   },
   {
@@ -114,6 +126,7 @@ const products = [
     name: "sofa",
     image: sofa2,
     rating: "5",
+    price: 43250,
     description: "fffff",
   },
   {
@@ -121,6 +134,7 @@ const products = [
     name: "sofa",
     image: sofa3,
     rating: "5",
+    price: 51250,
     description: "fffff",
   },
   {
@@ -128,6 +142,7 @@ const products = [
     name: "stool",
     image: stool,
     rating: "5",
+    price: 76250,
     description: "fffff",
   },
 ];

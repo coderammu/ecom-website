@@ -7,7 +7,6 @@ import cabinet4 from "../images/dining/cabinet-4.webp";
 import chair1 from "../images/dining/chair-1.avif";
 import chair2 from "../images/dining/chair-2.webp";
 import diwan from "../images/dining/diwan-1.webp";
-import hero from "../images/dining/hero.avif";
 import ottoman from "../images/dining/ottoman-1.webp";
 import sofa from "../images/dining/sofa-1.webp";
 import sofa1 from "../images/dining/sofa-2.webp";
@@ -30,7 +29,7 @@ const products = [
     id: "D124",
     name: "Bench",
     image: bench2,
-    price: 1250,
+    price: 4150,
     rating: "5",
     description: "fffff",
   },
@@ -38,6 +37,7 @@ const products = [
     id: "D125",
     name: "Cabinet",
     image: cabinet1,
+    price: 5550,
     rating: "5",
     description: "fffff",
   },
@@ -46,6 +46,7 @@ const products = [
     name: "Cabinet2",
     image: cabinet2,
     rating: "5",
+    price: 7250,
     description: "fffff",
   },
 
@@ -54,6 +55,7 @@ const products = [
     name: "Cabinet3",
     image: cabinet3,
     rating: "5",
+    price: 10250,
     description: "fffff",
   },
   {
@@ -61,6 +63,7 @@ const products = [
     name: "Cabinet4",
     image: cabinet4,
     rating: "5",
+    price: 12550,
     description: "fffff",
   },
 
@@ -69,6 +72,7 @@ const products = [
     name: "Chair",
     image: chair1,
     rating: "5",
+    price: 5250,
     description: "fffff",
   },
   {
@@ -76,13 +80,7 @@ const products = [
     name: "Chair",
     image: chair2,
     rating: "5",
-    description: "fffff",
-  },
-  {
-    id: "D131",
-    name: "Hero",
-    image: hero,
-    rating: "5",
+    price: 3250,
     description: "fffff",
   },
   {
@@ -90,6 +88,7 @@ const products = [
     name: "Ottoman",
     image: ottoman,
     rating: "5",
+    price: 32250,
     description: "fffff",
   },
   {
@@ -97,6 +96,7 @@ const products = [
     name: "Sofa",
     image: sofa,
     rating: "5",
+    price: 22250,
     description: "fffff",
   },
   {
@@ -104,6 +104,7 @@ const products = [
     name: "Sofa",
     image: sofa1,
     rating: "5",
+    price: 12250,
     description: "fffff",
   },
   {
@@ -111,6 +112,7 @@ const products = [
     name: "Sofa",
     image: sofa2,
     rating: "5",
+    price: 21250,
     description: "fffff",
   },
   {
@@ -118,6 +120,7 @@ const products = [
     name: "Diwan",
     image: diwan,
     rating: "5",
+    price: 12250,
     description: "fffff",
   },
   {
@@ -125,6 +128,7 @@ const products = [
     name: "Stool",
     image: stool,
     rating: "5",
+    price: 3250,
     description: "fffff",
   },
   {
@@ -132,6 +136,7 @@ const products = [
     name: "Stool",
     image: stool,
     rating: "5",
+    price: 4350,
     description: "fffff",
   },
   {
@@ -139,6 +144,7 @@ const products = [
     name: "Table",
     image: table,
     rating: "5",
+    price: 54250,
     description: "fffff",
   },
   {
@@ -146,6 +152,7 @@ const products = [
     name: "Table",
     image: table1,
     rating: "5",
+    price: 24562,
     description: "fffff",
   },
   {
@@ -153,6 +160,7 @@ const products = [
     name: "Table",
     image: table2,
     rating: "5",
+    price: 81250,
     description: "fffff",
   },
 ];

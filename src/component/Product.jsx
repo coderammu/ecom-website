@@ -60,9 +60,9 @@ export default function Product(props) {
             src={product.image}
             alt="product"
           />
-          <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">
+          {/* <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">
             39% OFF
-          </span>
+          </span> */}
         </div>
         <div class="mt-4 px-5 pb-5">
           <a href="/">
@@ -72,8 +72,10 @@ export default function Product(props) {
           </a>
           <div class="mt-2 mb-5 flex items-center justify-between">
             <p>
-              <span class="text-3xl font-bold text-slate-900">$449</span>
-              <span class="text-sm text-slate-900 line-through">$699</span>
+              <span class="text-3xl font-bold text-slate-900">
+                ₹{product.price}
+              </span>
+              {/* <span class="text-sm text-slate-900 line-through">$699</span> */}
             </p>
             <div class="flex items-center">
               <svg

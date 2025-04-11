@@ -22,6 +22,7 @@ const products = [
     name: "Bed",
     image: bed,
     rating: "5",
+    price: 2250,
     description: "fffff",
   },
   {
@@ -37,6 +38,7 @@ const products = [
     name: "bed",
     image: bed3,
     rating: "5",
+    price: 3250,
     description: "fffff",
   },
   {
@@ -44,6 +46,7 @@ const products = [
     name: "bed4",
     image: bed4,
     rating: "5",
+    price: 6750,
     description: "fffff",
   },
   {
@@ -51,6 +54,7 @@ const products = [
     name: "bed",
     image: bed5,
     rating: "5",
+    price: 3650,
     description: "fffff",
   },
   {
@@ -58,6 +62,7 @@ const products = [
     name: "bench",
     image: bench,
     rating: "5",
+    price: 1250,
     description: "fffff",
   },
   {
@@ -65,6 +70,7 @@ const products = [
     name: "bookcase",
     image: bookcase,
     rating: "5",
+    price: 3250,
     description: "fffff",
   },
   {
@@ -72,6 +78,7 @@ const products = [
     name: "cabinet",
     image: cabinet,
     rating: "5",
+    price: 4250,
     description: "fffff",
   },
   {
@@ -79,6 +86,7 @@ const products = [
     name: "cabinet1",
     image: cabinet1,
     rating: "5",
+    price: 5250,
     description: "fffff",
   },
   {
@@ -86,6 +94,7 @@ const products = [
     name: "cabinet",
     image: cabinet3,
     rating: "5",
+    price: 3250,
     description: "fffff",
   },
   {
@@ -93,6 +102,7 @@ const products = [
     name: "cabinet",
     image: cabinet4,
     rating: "5",
+    price: 3670,
     description: "fffff",
   },
   {
@@ -100,6 +110,7 @@ const products = [
     name: "chair",
     image: chair,
     rating: "5",
+    price: 2650,
     description: "fffff",
   },
   {
@@ -107,6 +118,7 @@ const products = [
     name: "chests And Dressers",
     image: chestsAndDressers,
     rating: "5",
+    price: 3450,
     description: "fffff",
   },
   {
@@ -114,6 +126,7 @@ const products = [
     name: "diwan",
     image: diwan,
     rating: "5",
+    price: 7250,
     description: "fffff",
   },
   {
@@ -121,6 +134,7 @@ const products = [
     name: "diwan",
     image: diwan,
     rating: "5",
+    price: 6250,
     description: "fffff",
   },
   {
@@ -128,6 +142,7 @@ const products = [
     name: "mirror",
     image: mirror,
     rating: "5",
+    price: 2250,
     description: "fffff",
   },
   {
@@ -135,6 +150,7 @@ const products = [
     name: "ottoman",
     image: ottoman,
     rating: "5",
+    price: 2250,
     description: "fffff",
   },
   {
@@ -142,6 +158,7 @@ const products = [
     name: "sofa",
     image: sofa,
     rating: "5",
+    price: 4250,
     description: "fffff",
   },
   {
@@ -149,6 +166,7 @@ const products = [
     name: "stool",
     image: stool,
     rating: "5",
+    price: 2150,
     description: "fffff",
   },
 ];
