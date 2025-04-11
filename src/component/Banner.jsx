@@ -5,7 +5,7 @@ export default function Banner() {
     <div className="h-8 bg-indigo-950 text-white hidden lg:block">
       <div className="container mx-auto px-5 h-full flex justify-center items-center">
         <div className="w-1/2 text-left text-sm font-thin">
-          <p>Free shipping on all orders over $50</p>
+          <p>Free shipping on all orders over ₹5000</p>
         </div>
         <div className="w-1/2 text-sm font-thin">
           <ul className="flex justify-end gap-4">
