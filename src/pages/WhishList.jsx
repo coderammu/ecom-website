@@ -8,7 +8,7 @@ export default function WhishList() {
   const { wishList } = products;
   return (
     <section className="container mx-auto px-5">
-      <div className="grid grid-cols-4 grid-rows-3 gap-10">
+      <div className="grid lg:grid-cols-4 grid-col-1 gap-10">
         {wishList.map((product) => (
           <Product product={product} isWishList />
         ))}
