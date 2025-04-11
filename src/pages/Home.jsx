@@ -24,9 +24,9 @@ export default function Home() {
             <h1 className="text-5xl font-bold">
               Best furniture collection for your interior.
             </h1>
-            <button className="text-center py-2 bg-cyan-600 w-27 font-bold text-sm text-white ">
+            <Link to="/products" className="text-center py-2 bg-cyan-600 w-27 font-bold text-sm text-white ">
               Show Now
-            </button>
+            </Link>
           </div>
           <div className="lg:w-1/2 w-full flex justify-center">
             <div className="bg-stone-300 w-90 h-90 rounded-full relative lg:bottom-18 z-0 max-lg:flex max-lg:justify-center">
