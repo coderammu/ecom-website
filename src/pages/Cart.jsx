@@ -9,7 +9,7 @@ export default function Cart() {
 
   const { products } = contextValues;
 
-  const { cart, wishList } = products;
+  const { cart } = products;
   return (
     <section className="container mx-auto px-5">
       <div className="grid grid-cols-4 grid-rows-3 gap-10">
