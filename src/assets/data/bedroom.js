@@ -1,26 +1,26 @@
-import bed from "../images/bedroom/beds1.webp";
-import bed2 from "../images/bedroom/bed2.avif";
-import bed3 from "../images/bedroom/bed3.avif";
-import bed4 from "../images/bedroom/bed4.avif";
-import bed5 from "../images/bedroom/bed5.avif";
-import bench from "../images/bedroom/bench-2.webp";
-import bookcase from "../images/bedroom/bookcase-1.webp";
-import cabinet from "../images/bedroom/cabinet-1.webp";
-import cabinet1 from "../images/bedroom/cabinet-2.webp";
-import cabinet3 from "../images/bedroom/cabinet-3.webp";
-import cabinet4 from "../images/bedroom/cabinet-4.webp";
-import chair from "../images/bedroom/chair-2.webp";
-import chestsAndDressers from "../images/bedroom/chests and dressers.webp";
-import diwan from "../images/bedroom/diwan-1.webp";
-import mirror from "../images/bedroom/mirror-1.webp";
-import ottoman from "../images/bedroom/ottoman-1.webp";
-import stool from "../images/bedroom/stool-1.webp";
-import sofa from "../images/bedroom/sofa-2.webp";
+import bed1 from "../images/bedroom/bed1.jpg";
+import bed2 from "../images/bedroom/bed2.png";
+import bed3 from "../images/bedroom/bed3.jpg";
+import bed4 from "../images/bedroom/bed4.png";
+import bed5 from "../images/bedroom/bed5.jpg";
+import bed6 from "../images/bedroom/bed6.jpg";
+// import bed7 from "../images/bedroom/bed7.jpg";
+import makeupTable1 from "../images/bedroom/makeup-table1.jpg";
+// import makeupTable2 from "../images/bedroom/makeup-table2.jpg";
+import makeupTable3 from "../images/bedroom/makeup-table3.jpg";
+import makeupTable4 from "../images/bedroom/makeup-table4.jpg";
+import wardrobe1 from "../images/bedroom/wardrobe1.jpg";
+import wardrobe2 from "../images/bedroom/wardrobe2.jpg";
+import wardrobe3 from "../images/bedroom/wardrobe3.jpg";
+import wardrobe4 from "../images/bedroom/wardrobe4.jpg";
+import wardrobe5 from "../images/bedroom/wardrobe5.jpg";
+import wardrobe6 from "../images/bedroom/wardrobe6.jpg";
+import wardrobe7 from "../images/bedroom/wardrobe7.jpg";
 const products = [
   {
     id: "B123",
     name: "Bed",
-    image: bed,
+    image: bed1,
     rating: "5",
     price: 2250,
     description: "fffff",
@@ -35,7 +35,7 @@ const products = [
   },
   {
     id: "B125",
-    name: "bed",
+    name: "Bed",
     image: bed3,
     rating: "5",
     price: 3250,
@@ -43,7 +43,7 @@ const products = [
   },
   {
     id: "B126",
-    name: "bed4",
+    name: "Bed",
     image: bed4,
     rating: "5",
     price: 6750,
@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: "B127",
-    name: "bed",
+    name: "Bed",
     image: bed5,
     rating: "5",
     price: 3650,
@@ -59,114 +59,106 @@ const products = [
   },
   {
     id: "B128",
-    name: "bench",
-    image: bench,
+    name: "benBedch",
+    image: bed6,
     rating: "5",
     price: 1250,
     description: "fffff",
   },
-  {
-    id: "B129",
-    name: "bookcase",
-    image: bookcase,
-    rating: "5",
-    price: 3250,
-    description: "fffff",
-  },
+  // {
+  //   id: "B129",
+  //   name: "Bed",
+  //   image: bed7,
+  //   rating: "5",
+  //   price: 3250,
+  //   description: "fffff",
+  // },
   {
     id: "B130",
-    name: "cabinet",
-    image: cabinet,
+    name: "Makeup Table",
+    image: makeupTable1,
     rating: "5",
     price: 4250,
     description: "fffff",
   },
-  {
-    id: "B131",
-    name: "cabinet1",
-    image: cabinet1,
-    rating: "5",
-    price: 5250,
-    description: "fffff",
-  },
+  // {
+  //   id: "B131",
+  //   name: "Makeup Table",
+  //   image: makeupTable2,
+  //   rating: "5",
+  //   price: 5250,
+  //   description: "fffff",
+  // },
   {
     id: "B132",
-    name: "cabinet",
-    image: cabinet3,
+    name: "Makeup Table",
+    image: makeupTable3,
     rating: "5",
     price: 3250,
     description: "fffff",
   },
   {
     id: "B133",
-    name: "cabinet",
-    image: cabinet4,
+    name: "Makeup Table",
+    image: makeupTable4,
     rating: "5",
     price: 3670,
     description: "fffff",
   },
   {
     id: "B134",
-    name: "chair",
-    image: chair,
+    name: "Wardrobe",
+    image: wardrobe1,
     rating: "5",
     price: 2650,
     description: "fffff",
   },
   {
     id: "B135",
-    name: "chests And Dressers",
-    image: chestsAndDressers,
+    name: "Wardrobe",
+    image: wardrobe2,
     rating: "5",
     price: 3450,
     description: "fffff",
   },
   {
     id: "B136",
-    name: "diwan",
-    image: diwan,
+    name: "Wardrobe",
+    image: wardrobe3,
     rating: "5",
     price: 7250,
     description: "fffff",
   },
   {
     id: "B137",
-    name: "diwan",
-    image: diwan,
+    name: "Wardrobe",
+    image: wardrobe4,
     rating: "5",
     price: 6250,
     description: "fffff",
   },
   {
     id: "B138",
-    name: "mirror",
-    image: mirror,
+    name: "Wardrobe",
+    image: wardrobe5,
     rating: "5",
     price: 2250,
     description: "fffff",
   },
   {
     id: "B139",
-    name: "ottoman",
-    image: ottoman,
+    name: "Wardrobe",
+    image: wardrobe6,
     rating: "5",
     price: 2250,
     description: "fffff",
   },
   {
     id: "B140",
-    name: "sofa",
-    image: sofa,
+    name: "Wardrobe",
+    image: wardrobe7,
     rating: "5",
     price: 4250,
-    description: "fffff",
-  },
-  {
-    id: "B141",
-    name: "stool",
-    image: stool,
-    rating: "5",
-    price: 2150,
     description: "fffff",
   },
 ];

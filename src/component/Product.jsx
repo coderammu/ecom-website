@@ -56,7 +56,7 @@ export default function Product(props) {
             ></i>
           )}
           <img
-            class="object-contain w-full h-auto"
+            class="object-cover w-full h-auto"
             src={product.image}
             alt="product"
           />
